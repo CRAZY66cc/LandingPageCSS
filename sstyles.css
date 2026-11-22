@@ -5,7 +5,6 @@ body {
     margin: 0;
 }
 
-
 header {
     background-color: #333;
     color: white;
@@ -13,12 +12,10 @@ header {
     text-align: center;
 }
 
-
 nav {
     background-color: #555;
     padding: 15px;
 }
-
 
 nav a {
     color: white;
@@ -26,13 +23,11 @@ nav a {
     margin: 10px;
 }
 
-
 #INICIO {
     background-color: #e2e2e2;
     padding: 30px;
     text-align: center;
 }
-
 
 #NOSOTROS {
     background-color: #f4f4f4;
@@ -40,13 +35,11 @@ nav a {
     text-align: center;
 }
 
-
 #COMPUTADORES {
     background-color: #e2e2e2;
     padding: 20px;
     text-align: center;
 }
-
 
 table {
     width: 80%;
@@ -55,19 +48,16 @@ table {
     background-color: white;
 }
 
-
 th {
     background-color: #333;
     color: white;
     padding: 10px;
 }
 
-
 td {
     padding: 10px;
     text-align: center;
 }
-
 
 .imagenes {
     width: 200px;
@@ -75,30 +65,25 @@ td {
     margin: 15px;
 }
 
-
 .titulo {
     color: #333;
     text-align: center;
 }
-
 
 .descripcion {
     font-size: 16px;
     color: #555;
 }
 
-
 .tabla-computadores {
     border: 1px solid black;
 }
-
 
 #SERVICIOS {
     background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
 }
-
 
 .servicio {
     background-color: white;
@@ -107,13 +92,11 @@ td {
     border-radius: 5px;
 }
 
-
 #SITIOS {
     background-color: #e2e2e2;
     padding: 20px;
     text-align: center;
 }
-
 
 #LOGIN {
     background-color: #f4f4f4;
@@ -121,19 +104,16 @@ td {
     text-align: center;
 }
 
-
 #REGISTRO {
     background-color: #e2e2e2;
     padding: 30px;
     text-align: center;
 }
 
-
 input {
     padding: 10px;
     margin: 5px;
 }
-
 
 button {
     background-color: #333;
@@ -142,9 +122,6 @@ button {
     border: none;
 }
 
-
-
-
 .formulario {
     background-color: white;
     padding: 20px;
@@ -152,7 +129,6 @@ button {
     width: 50%;
     border-radius: 5px;
 }
-
 
 .boton {
     background-color: #333;
@@ -163,4 +139,38 @@ button {
 
 a {
     color: #0066cc;
+}
+
+/* Ajustes para las paginas independientes */
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    table {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    td, th {
+        padding: 6px;
+    }
 }
