@@ -1,26 +1,51 @@
-
 body {
-    background-color: #f2f2f2;
+    background-color: #0B1120 ;
+    color: white;
     font-family: Arial;
     margin: 0;
 }
 
+
 header {
-    background-color: #333;
+    background-color: #161D2E;
     color: white;
-    padding: 20px;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+    white-space: nowrap;
 }
 
 nav {
-    background-color: #555;
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 10px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #00BFFF;
+}
+
+nav .registro {
+    background-color: #00BFFF;
+    color: #0B1120;
+    padding: 10px 15px;
+    border-radius: 6px;
 }
 
 #INICIO {
@@ -46,6 +71,7 @@ table {
     margin: 20px auto;
     border-collapse: collapse;
     background-color: white;
+    text-align: center;
 }
 
 th {
@@ -57,6 +83,7 @@ th {
 td {
     padding: 10px;
     text-align: center;
+    color: #0066cc;
 }
 
 .imagenes {
@@ -174,3 +201,5 @@ nav a {
         padding: 6px;
     }
 }
+
+
