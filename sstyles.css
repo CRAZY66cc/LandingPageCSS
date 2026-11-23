@@ -1,22 +1,15 @@
 body {
-    background-color: #0b1120;
-    color: white;
-    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    font-family: Arial;
     margin: 0;
 }
+
 
 header {
-    background-color: #161D2E;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 26px;
-    white-space: nowrap;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 nav {
@@ -29,11 +22,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    white-space: nowrap;
-}
-
-nav a:hover {
-    color: #00BFFF;
+    margin: 10px;
 }
 
 nav a.registro {
@@ -76,14 +65,24 @@ table {
     width: 80%;
     margin: 25px auto;
     border-collapse: collapse;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: white;
 }
 
 th {
     background-color: #333;
     color: white;
-    padding: 12px;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.imagenes {
+    width: 200px;
+    height: 150px;
+    margin: 15px;
 }
 
 td {
