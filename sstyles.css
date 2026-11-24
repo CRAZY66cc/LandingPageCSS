@@ -1,28 +1,38 @@
 body {
-    background-color: #f2f2f2;
-    font-family: Arial;
+    background-color: #0B1120;
+    color: white;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
-
 header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    background-color: #161D2E;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
 }
 
 nav {
     display: flex;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 10px;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00BFFF;
 }
 
 nav a.registro {
@@ -30,53 +40,52 @@ nav a.registro {
     color: #0B1120;
     padding: 10px 15px;
     border-radius: 6px;
-    transition: 0.3s;
 }
 
 nav a.registro:hover {
     background-color: white;
-    color: #0B1120;
-}
-
-
-
-hr {
-    border: 0;
-    height: 1px;
-    background-color: #222;
-    width: 90%;
 }
 
 h2, p {
     text-align: center;
 }
 
+h2 {
+    color: #00BFFF;
+}
+
+p {
+    color: #CCCCCC;
+}
+
 table a {
-    color: #f9fbfd;
-    transition: 0.3s;
+    color: #00BFFF;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 table a:hover {
-    color: #00BFFF;
+    color: white;
 }
 
 table {
     width: 80%;
     margin: 25px auto;
     border-collapse: collapse;
-    background-color: white;
+    background-color: #161D2E;
+    color: white;
 }
 
 th {
-    background-color: #333;
-    color: white;
+    background-color: #222D43;
+    color: #00BFFF;
     padding: 10px;
 }
 
 td {
-    padding: 10px;
+    padding: 12px;
     text-align: center;
+    border: 1px solid #303B50;
 }
 
 .imagenes {
@@ -85,23 +94,24 @@ td {
     margin: 15px;
 }
 
-td {
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #ccc;
-}
-
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
         gap: 20px;
+        padding: 20px;
     }
 
     nav {
+        flex-wrap: wrap;
         justify-content: center;
+        gap: 12px;
     }
 
     table {
         width: 95%;
+    }
+
+    td, th {
+        padding: 6px;
     }
 }
